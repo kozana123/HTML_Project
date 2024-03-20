@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Style/index.css">
+</head>
+<body class="grid">
+    
+    <header id="header">
+        
+        <nav>
+            <ul class="grid">
+                <div class="headerHover"><li><a href="./pages/contect.html"><div><span>צור קשר</span></div></a></li></div>
+                <div class="headerHover"><li><a href=""><div><span>ספורט</span></div></a></li></div>
+                <div class="headerHover"><li><a href=""><div><span>מתכונים</span></div></a></li></div>
+                <div class="headerHover"><li><a href=""><div><span>מידע מקצועי</span></div></a></li></div>
+                <div class="headerHover"><li><a href="/pages/shop.html"><div><span>חנות</span></div></a></li></div>
+                <li><a href="/index.html"> <img id="logo" src="/Style/images/Logo temp.png" alt="logo"></a></li>
+            </ul>
+            
+        </nav>
+
+    </header>
+
+    <form action="./login.html">
+        <h3 id="title">פרטי הרשמה</h3>
+        <section class="grid personal">
+            
+
+            <div class="form-input">
+                <label for="firstName">שם פרטי</label>
+                <input type="text" id="firstName" name="firstName" placeholder="יש למלא שם פרטי" required>
+            </div>
+
+            <div class="form-input"> 
+                <label for="lastName">שם משפחה</label>
+                <input type="text" id="lastName" name="lastName"required>
+            </div>
+            <div class="form-input">
+                <label for="email">כתובת מייל</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-input">
+                <label for="password">סיסמא</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+                
+            <div class="form-input">
+                <label for="phone">טלפון</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-input">
+                <label for="gender">:מגדר</label>
+                <input type="radio" name="gender">זכר
+                <input type="radio" name="gender">נקבה
+                <input type="radio" name="gender">אחר
+            </div>
+
+            <div class="form-input">
+                <label for="date">תאריך לידה</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+        </section>
+        <div class="grid" id="button">
+            <button>רישום</button>
+            <button type="reset">נקה טופס</button>
+        </div>
+        
+    </form>
+</body>
+</html>

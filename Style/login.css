@@ -1,0 +1,64 @@
+@import url(/Style/header.css);
+@import url(/Style/reset.css);
+
+.grid{
+    display: grid;
+}
+
+#title{
+    
+    font-size: 40px;
+    text-align: center;
+    margin-top:13%;
+    
+}
+
+
+.personal{
+
+    display: block;
+    background-color: antiquewhite;
+    height: 300px;
+    margin: 30px 40%;  
+    border: 2px solid rgba(109, 109, 109, 0.39);
+    grid-template-rows: 1fr 1fr;
+    font-size: 25px;
+    text-align: center; 
+    gap: 15px;
+    padding: 15px;
+    box-shadow: 0px 0px 60px 0px rgba(112, 112, 112, 0.75);
+  
+}
+
+.form-input label{
+    display: block;
+    margin: 20px auto ;
+    
+}
+
+.form-input > input{
+    
+    font-size: 20px;
+    margin: 0px auto ;
+   
+}
+
+
+
+#button{
+    grid-template-rows: 1fr 1fr;
+    display: block;
+    margin: 10px auto;
+}
+
+#button > button{
+    display: block;
+    margin: 10px auto;
+    font-size: 20px;
+    background-color:rgb(207, 232, 81)
+
+}
+
+input{
+    background-color:rgb(255, 209, 149)
+}

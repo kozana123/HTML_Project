@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Secular+One&display=swap');
+@import url(/Style/header.css);
+
+.body{
+
+    font-family: "Secular One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    grid-template-areas:
+       
+        'welcome welcome welcome welcome welcome welcome' 
+        'aside main main main main main'
+        'aside main main main main main'
+        'aside main main main main main' 
+        'footer footer footer footer footer footer'
+        ;
+}
+
+.grid{
+    display: grid;   
+}
+
+
+
+#welcome{
+    margin-top: 3%;
+    grid-area: welcome;
+    background-image: url(/Style/images/Welcome.jpeg) ;
+    background-size: cover;  
+}
+
+#welcome > div > a{
+    font-weight: bold;
+    font-size: 50px;
+    margin: auto;
+    background-color: rgba(235, 140, 39, 0.45);
+    border-radius: 100px;
+    border: 2px solid black;
+    padding: 015px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+  
+}
+
+#title1{
+    
+    font-size: 150px;
+    padding-left: 50%;
+}
+
+#title2{
+    
+    font-size: 150px;
+    padding-left: 40%;
+}
+#welcome > h2{
+    font-size: 100px;
+    padding-left: 85%;
+}
+
+#welcome > div{
+    grid-template-columns: 1fr 1fr ;
+    margin: 3%;
+    
+}
+
+#main{
+    grid-area: main;
+}
+
+#main > div{
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 6% 3%;
+    gap: 1%;
+}
+
+.imgContain{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;     
+}
+.imgContain > div{
+    width: 100%;
+    height: 100%; 
+    
+}
+
+.img-effect{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: all 1.1s;
+}
+.colorEffect{
+    
+    width: 100%;
+    height: 100%; 
+    background-color: aqua;
+}
+
+.colorEffect:hover{
+    
+    
+}
+.img-effect:hover{
+    transform: scale(1.2);
+    
+}
+
+#aside{
+    grid-area: aside;
+    height: 500px;	
+    overflow: hidden;
+    position: relative;
+    background: rgba(47, 113, 37, 0.508);
+    color: rgb(0, 0, 0);
+    border: 1px solid orange;
+   
+}
+
+#aside p{
+    
+ 
+ width: 200px;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ 
+ transform:translateY(100%);
+ 
+ animation: scroll-up 4s linear infinite;
+}
+
+#footer {
+    grid-area: footer;
+}
+#footer > ul {
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    justify-content: space-around;
+    gap: 20px;
+    width: 50%;
+    margin-inline: auto;
+
+}
+#footer img{
+    width: 20%;
+}
+
+@keyframes scroll-up {
+    0%   {
+    transform: translateY(100%); 		
+    }
+    100% {
+    transform: translateY(0%); 
+    }
+   }

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Secular+One&display=swap');
+@import url(/Style/header.css);
+@import url(/Style/reset.css);
+
+
+
+
+body{
+    font-family: "Secular One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(/Style/images/shop/רקע\ לחנות.jpeg);
+    background-size: cover; 
+}
+.grid{
+    display: grid;
+}
+
+.slider-container {
+    z-index: 0;
+    border:1px solid black ;
+    margin-top: 81px;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.slider-image {
+    width: auto;
+    height: 350px;
+    float: left;
+    position: relative;
+}
+
+
+.image-container {
+    width: 6000px;
+    height: 350px;
+    clear: both;
+    position: relative;
+    animation: slider linear infinite alternate;
+    animation-duration: 17s;
+    
+  }
+
+
+#ul{
+    
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    padding: 5%;
+    gap: 0 10%
+
+
+}
+
+
+#ul > li > a > img{
+    
+    width: 100%;
+    border-radius: 70px;
+    height: 70%;
+    object-fit: cover;
+
+}
+
+nav > ul> li> label{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(44, 177, 113, 0.464);
+    border: 1px solid black;
+    margin: auto;
+    width: fit-content;
+    border-radius: 100px;
+    padding-inline: 13px
+
+}
+
+#ul > li > a:hover {
+    filter:contrast(70%)
+}
+
+@keyframes slider {
+    0% {
+      transform: translate(0, 0);
+    }
+
+    5% {
+        transform: translate(0, 0);
+    }
+
+    95% {
+        transform: translate(-2648px, 0);
+    } 
+  
+    100% {
+        transform: translate(-2648px, 0);
+    } 
+  }

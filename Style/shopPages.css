@@ -1,0 +1,50 @@
+@import url(/Style/reset.css);
+@import url(/Style/header.css);
+
+.grid{
+    display: grid;
+}
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+#ul{
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    padding: 8%;
+    gap: 0 8%
+
+
+}
+
+
+#ul > li > img{
+        
+    width: 100%;
+    border-radius: 70px;
+    height: 70%;
+    object-fit: cover;
+}
+
+nav > ul> li> label{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    margin: auto;
+    width: fit-content;
+    border-radius: 100px;
+    padding-inline: 13px;
+
+
+}
+
+/* img:hover{
+    
+    opacity: 50%;
+} */
