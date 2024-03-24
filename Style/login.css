@@ -33,7 +33,7 @@
     display: block;
     background-color: rgb(215, 207, 196);
     height: 300px;
-    /* margin: 30px 40%;   */
+    margin: 30px 40%;  
     border: 2px solid rgba(229, 207, 207, 0.822);
     grid-template-rows: 1fr 1fr;
     font-size: 25px;
