@@ -172,40 +172,51 @@ a{
     background-color: rgba(229, 216, 103, 0.705);
 }
 
-
-
 .img-effect:hover{
     transform: scale(1.2);
     opacity: 30%;
 }
 
-
 #aside{
     grid-area: aside;
-    height: 600px;	
-    overflow: hidden;
-    position: relative;
+    height: 70%;	
     background: rgba(176, 215, 170, 0.508);
     color: rgb(0, 0, 0);
     border: 1px solid rgb(211, 203, 186);
+    overflow: hidden;
     
 }
 
-#aside p{
- 
- width: 200px;
- height: 100%;
- margin: 0;
- line-height: 50px;
- text-align: center;
- transform:translateY(100%);
- animation: scroll-up 4s linear infinite;
+
+.news1{
+    margin: auto;
+    width: 80%;
+    height: 20%;
+    overflow: hidden; 
+    transform:translateY(550%);
+    animation: scroll-up1 10s linear infinite;
 }
- 
+
+.news2{
+    margin: auto;
+    width: 80%;
+    height: 20%;
+    overflow: hidden; 
+    transform:translateY(550%);
+    animation: scroll-up2 12s linear 2s infinite;
+}
+
+.newsImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 #footer {
     grid-area: footer;
 }
+
 #footer > ul {
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
@@ -215,19 +226,27 @@ a{
     margin-inline: auto;
 
 }
+
 #footer img{
     width: 20%;
 } 
-  
-    
 
 
-@keyframes scroll-up {
+@keyframes scroll-up1 {
     0%   {
-    transform: translateY(100%); 		
+    transform: translateY(550%); 		
     }
     100% {
-    transform: translateY(0%); 
+    transform: translateY(-100%); 
+    }
+}
+
+@keyframes scroll-up2 {
+    0%   {
+    transform: translateY(550%); 		
+    }
+    100% {
+    transform: translateY(-100%); 
     }
 }
 
