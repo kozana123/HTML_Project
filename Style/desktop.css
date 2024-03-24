@@ -32,7 +32,7 @@ a{
     margin-top: 3%;
     grid-area: welcome;
     background-image: url(/Style/images/Welcome.jpeg) ;
-    background-size: cover;  
+    /* background-size: cover;   */
 }
 
 #welcome > div > a{
