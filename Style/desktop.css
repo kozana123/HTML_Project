@@ -179,30 +179,31 @@ a{
 
 #aside{
     grid-area: aside;
+    width: 100%;
     height: 70%;	
-    background: rgba(176, 215, 170, 0.508);
+    background: rgb(241, 230, 181);
     color: rgb(0, 0, 0);
-    border: 1px solid rgb(211, 203, 186);
+    border-right: 2px solid rgba(158, 147, 97, 0.9);
+    border-bottom: 2px solid rgba(158, 147, 97, 0.9);
     overflow: hidden;
     
 }
 
 
-.news1{
+.news{
     margin: auto;
     width: 80%;
     height: 20%;
     overflow: hidden; 
-    transform:translateY(550%);
-    animation: scroll-up1 10s linear infinite;
+    transform:translateY(500%);
+    
 }
 
-.news2{
-    margin: auto;
-    width: 80%;
-    height: 20%;
-    overflow: hidden; 
-    transform:translateY(550%);
+#news1{
+    animation: scroll-up1 12s linear infinite;
+}
+
+#news2{
     animation: scroll-up2 12s linear 2s infinite;
 }
 
@@ -234,19 +235,19 @@ a{
 
 @keyframes scroll-up1 {
     0%   {
-    transform: translateY(550%); 		
+    transform: translateY(500%); 		
     }
     100% {
-    transform: translateY(-100%); 
+    transform: translateY(-200%); 
     }
 }
 
 @keyframes scroll-up2 {
     0%   {
-    transform: translateY(550%); 		
+    transform: translateY(500%); 		
     }
     100% {
-    transform: translateY(-100%); 
+    transform: translateY(-200%); 
     }
 }
 
