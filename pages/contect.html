@@ -28,36 +28,46 @@
     <div id="title">
         <h1 class="title">צור קשר</h1>
     </div>
+    <div class="piska">
+        <p>ניתן לפנות להנהלת האתר באמצעות הטופס, תוכלו לכתוב לנו בכל נושא ובכל שאלה שיש לכם. 
+            <br> אנו מבטיחים לענות בהקדם האפשרי ולתת את התשובה שאתם מחפשים (: </p>
+
+    </div>
 
     <form action="">
+        <div class="grid contect">
+
+        <section class="personalContact">
+               <div class="form-input">
+                    <input type="email" id="emailContect" name="email" required>
+                    <label for="email">:אימייל </label>
+                </div>  
+            </section>
+
+            <section class="personalContact">
+                <div class="form-input">
+                    <input type="text" id="name" name="name" required>
+                    <label for="text">:שם מלא</label>
+                </div>
+            </section>
+
+        </div>
+ 
         
 
-        <section class=" grid personalContact">
+           
+<!--        
+        <section class="grid text"> -->
             <div class="form-input">
-                <input type="text" id="name" name="name" required>
-                <label for="text">:שם מלא</label>
+                    <label for="textarea" class="emailBox"></label>
+                   <textarea class="massage" name="textareal" id="emailBox" rows="6" placeholder="הודעה"></textarea>
+            
             </div>
-            <div class="form-input">
-                <input type="email" id="emailContect"  name="email" required>
-                <label for="email">:אימייל  </label>
-            </div>
-            <!-- <div class="form-input">
-                   <textarea name="textareal" id="emailBox" cols="60" rows="9"></textarea>
-                    <label for="textarea">:הודעה</label>
-            </div> -->
-        </section>
-
-        <section class="grid text">
-            <div class="form-input">
-                
-                   <textarea name="textareal" id="emailBox" cols="130" rows="9"></textarea>
-                    <label for="textarea">:הודעה</label>
-            </div>
-
-        </section>
+<!-- 
+        </section> -->
 
         <div class="grid" id="sendButton">
-            <button>שלח</button>
+            <button>שלח הודעה</button>
 </body>
 </html>
 
