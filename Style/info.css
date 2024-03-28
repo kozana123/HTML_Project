@@ -10,9 +10,11 @@
 .body{
 
     font-family: "Secular One", sans-serif;
-    font-weight: 400;
+    /* font-weight: 0; */
     font-style: normal;
-    background-color: rgb(234, 233, 217);
+    background-size: cover; 
+    /* background-color: rgb(223, 242, 220); */
+    background-image: url(/Style/images/shop/רקע\ לחנות.jpeg);
 }
 
 .grid{

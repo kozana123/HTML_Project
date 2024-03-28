@@ -49,6 +49,8 @@
        width: 40%;
        margin-bottom: -7px
    }
+
+
 .form-input > label{
     position:relative;
      font-family: "Secular One", sans-serif;
@@ -61,30 +63,28 @@
 }
 
 #name{
-    margin-top:14%;
+    /* margin-top:1%;
     height: 30px;
     width: 90%;
-    margin-left: 19%;
+    margin-left:4%; */
  
 
 }
 
 #emailContect{
-    height: 30px;
+    /* height: 30px;
     width: 90%;
-    margin-left: 19%;
-    margin-top: 2%;
-    
+    /* margin-left: 19%; */
+    /* margin-top: 2%; */ 
+    /* margin-right:19%;  */
+
 }
 
     
-    .form-input {
-        width: 80%;
-        display: block;
-        margin-left: 78%;
-        justify-content:right;
+.form-input {
+    justify-content:right;
 
-    }
+}
 
 #sendButton{
     margin: 10px;
@@ -109,15 +109,11 @@ input{
 
 
 .personalContact{
-    margin-top: 0.5%;
     background-color: rgb(238, 237, 236);
-    /* height: 400px;
-    width: 70%; */
     border: 2px solid black;
-    justify-content:flex-start;
-    grid-template-rows: 1fr ;
     font-size: 25px;
     text-align: right; 
+    margin: 0 25%;
     
     
 }
