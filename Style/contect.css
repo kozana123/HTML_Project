@@ -49,8 +49,15 @@
        width: 40%;
        margin-bottom: -7px
    }
-.form-input label{
-   text-align: right;
+.form-input > label{
+    position:relative;
+     font-family: "Secular One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    
+    border-radius: 0.5em;
+   
+   
 }
 
 #name{
@@ -66,7 +73,7 @@
     height: 30px;
     width: 90%;
     margin-left: 19%;
-    margin-top: 10%;
+    margin-top: 2%;
     
 }
 
@@ -76,6 +83,7 @@
         display: block;
         margin-left: 78%;
         justify-content:right;
+
     }
 
 #sendButton{
@@ -101,7 +109,7 @@ input{
 
 
 .personalContact{
-    margin-top: 10%;
+    margin-top: 0.5%;
     background-color: rgb(238, 237, 236);
     /* height: 400px;
     width: 70%; */
