@@ -225,12 +225,14 @@ a{
     grid-area: aside;
     width: 250px;
     height: 70%;	
-    background: rgb(241, 230, 181);
+    background: rgba(241, 230, 181, 0.281);
     color: rgb(0, 0, 0);
-    border-top: 3px solid rgba(158, 147, 97, 0.9);
+    border-top: 2px solid rgba(158, 147, 97, 0.9);
     border-right: 3px solid rgba(158, 147, 97, 0.9);
-    border-bottom: 3px solid rgba(158, 147, 97, 0.9);
+    border-bottom: 2px solid rgba(158, 147, 97, 0.9);
     overflow: hidden;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     
 }
 
