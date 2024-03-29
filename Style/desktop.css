@@ -225,6 +225,7 @@ a{
     grid-area: aside;
     width: 250px;
     height: 70%;	
+<<<<<<< HEAD
     /* background: rgb(252, 251, 247); */
     color: rgb(13, 12, 12);
     /* border-top: 3px solid rgba(201, 168, 21, 0.9); */
@@ -233,6 +234,16 @@ a{
     overflow: hidden;
    
    
+=======
+    background: rgba(241, 230, 181, 0.281);
+    color: rgb(0, 0, 0);
+    border-top: 2px solid rgba(158, 147, 97, 0.9);
+    border-right: 3px solid rgba(158, 147, 97, 0.9);
+    border-bottom: 2px solid rgba(158, 147, 97, 0.9);
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+>>>>>>> c34c76b34d2643687e4353496a1cf86eef5acc94
     
 }
 
