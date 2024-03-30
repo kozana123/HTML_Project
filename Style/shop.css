@@ -18,10 +18,11 @@ body{
 
 .slider-container {
     z-index: 0;
-    border:1px solid black ;
-    margin-top: 53px;
+    border-top: 2px solid rgba(158, 147, 97, 0.9);;
+    border-bottom: 2px solid rgba(158, 147, 97, 0.9);;
+    margin-top: 4%;
     width: 100%;
-    height: 350px;
+    height: 200px;
     position: relative;
     text-align: center;
     overflow: hidden;
@@ -29,19 +30,19 @@ body{
 
 .slider-image {
     width: auto;
-    height: 350px;
+    height: 200px;
     float: left;
     position: relative;
 }
 
 
 .image-container {
-    width: 6000px;
-    height: 350px;
+    width: 3000px;
+    height: 200px;
     clear: both;
     position: relative;
     animation: slider linear infinite alternate;
-    animation-duration: 17s;
+    animation-duration: 10s;
     
   }
 
@@ -51,7 +52,7 @@ body{
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     
-    padding: 5%;
+    padding: 5% 15%;
     gap: 0 10%
 
 
@@ -62,7 +63,7 @@ body{
     
     width: 100%;
     border-radius: 70px;
-    height: 70%;
+    height: 80%;
     object-fit: cover;
 
 }
@@ -94,10 +95,10 @@ nav > ul> li> label{
     }
 
     95% {
-        transform: translate(-2648px, 0);
+        transform: translate(-868px, 0);
     } 
   
     100% {
-        transform: translate(-2648px, 0);
+        transform: translate(-868px, 0);
     } 
   }
