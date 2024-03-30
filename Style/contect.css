@@ -8,6 +8,13 @@
     
 }
 
+.grid {
+    display: grid;
+   
+}
+
+
+
 #grid{
     font-family: "Secular One", sans-serif;
     font-weight: 900;
@@ -90,6 +97,7 @@ body{
     font-weight: 900;
     border-radius: 0.5em;
     border: 3px solid rgb(7, 114, 50);
+    
  
 }
 
@@ -114,9 +122,10 @@ body{
 }
 
     
-.form-input {
-
-
+form > div {
+    grid-template-columns: repeat(2, 1fr);
+   
+    
 }
 
 #sendButton{
@@ -159,19 +168,20 @@ button {
   }
   
 
-input{
+.input{
     background-color:rgb(216, 207, 191);
     height: 30px;
     width: 77%;
     margin-right: 20px;
     direction: rtl;
+    widgets-spacing: 5px 5px;
 
 }  
 
 
 .contect{
- grid-template-columns: 1fr 1fr;
- 
+ /* grid-template-columns: 1fr 1fr; */
+    widgets-spacing: 5px 5px;
     
 }
 
