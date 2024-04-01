@@ -175,7 +175,7 @@ button {
   }
   
   button:hover span {
-    transform: translateX(5em);
+    transform: translateX(7em);
   }
   
   button:active {
