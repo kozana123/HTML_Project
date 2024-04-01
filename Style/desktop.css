@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Secular+One&display=swap');
 @import url(/Style/header.css);
 
+
 .body{
 
     font-family: var(--ff);
@@ -15,7 +16,8 @@
         'aside main main main main main' 
         'aside main main main main main'
         'footer footer footer footer footer footer'
-        
+      ;
+      cursor: default;
 }
 
 .grid{
