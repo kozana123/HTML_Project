@@ -52,7 +52,7 @@ body{
    }
    
    .title:after{
-        background-color: rgb(104, 157, 111);
+    background-color: rgb(104, 157, 111);
        content: '';
        display: block;
        position:absolute; right:0; bottom:0;
@@ -65,8 +65,7 @@ body{
 .box > label{
     position:relative;
     font-family: "Secular One", sans-serif;
-    font-weight: 900;
-    font-style: normal;
+    font-size: 150%;
     direction: rtl;
     border-radius: 0.5em;
    
@@ -81,17 +80,21 @@ body{
     box-sizing: border-box;
     direction: rtl;
     background-color: #8faa91;
+    font-size: 150%;
 }
 
 
 .piska{
     margin-top: auto;
-    margin:7% 2%;
+    margin:8% 2%;
     letter-spacing:1px; 
     text-align:center;
     direction: rtl;
     font-size: 22px;
     text-decoration:double;
+    font-weight: 900;
+    
+
 }
 
 
@@ -118,7 +121,7 @@ body{
     
 }
  
-
+/* 
 #sendButton{
     margin: 10px;
     width: 1%;
@@ -126,16 +129,78 @@ body{
     text-align: center;
     
    
-}
+} */
 
-button{
+
+button {
+    font-family: "Secular One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin: 10px;
+    width: 14%;
+    margin-left: 17%;
+    text-align: center;
+    font-size: 22px;
+    background: rgb(221, 223, 227);
+    color: rgb(27, 75, 43);
+    padding: 0.9em 1em; 
+    display: flex;
+    align-items: center;
+    border-color:rgb(35, 81, 45);
+    border-radius: 100px;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+
+  }
+  
+  button span {
+    display: block;
+    margin-left: 1.0em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+  }
+  
+  button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+  }
+  
+  button:hover span {
+    transform: translateX(5em);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  @keyframes fly-1 {
+    from {
+      transform: translateY(0.1em);
+    }
+  
+    to {
+      transform: translateY(-0.1em);
+    }
+  }
+  
+
+/* button{
     
     background-color:rgb(178, 203, 38) 
     
 }
+ */
 
-
-
+/* 
 button {
 
     width: 190%;
@@ -157,17 +222,27 @@ button {
   button:active {
     box-shadow: 4px 4px 12px #a5d43e, -4px -4px 12px #79dfa2;
   }
-  
+   */
 
  
 
 
-.contect{
- /* grid-template-columns: 1fr 1fr; */
-    widgets-spacing: 5px 5px;
-    
+#emailContect{
+    font-size: 90%;
+    font-family: "Secular One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
 }
 
+
+
+#name{
+font-size: 90%;
+font-family: "Secular One", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
 .personalContact{
     background-color: rgb(238, 237, 236);
     border: 2px solid black;
@@ -180,7 +255,6 @@ button {
     
     
 }
-
 
 
 
