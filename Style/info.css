@@ -78,10 +78,6 @@ a{
     height: 100%;
 }
 
-article > div > a{
-    
-}
-
 .img{
     
     width: 100%;
@@ -120,6 +116,10 @@ article > div > a{
     color: rgb(136, 0, 41);
 }
 
+div:has(.h2:hover) .img{
+    transition: linear 0.25s;
+    filter:brightness(70%)
+}
 .h3:hover{
     color: rgb(136, 0, 41);
 }
