@@ -243,7 +243,7 @@ a{
     margin: auto;
     width: 80%;
     height: 15%;
-    transform:translateY(200%);
+    transform:translateY(700%);
     
     
 }
@@ -263,7 +263,7 @@ a{
     direction: rtl;
 }
 
-/* #news1{
+#news1{
     animation: scroll-up1 12s linear infinite;
 }
 
@@ -275,7 +275,7 @@ a{
 #news3{
     animation: scroll-up3 12s linear 4s infinite;
 
-} */
+}
 
 .newsImg{
     position: absolute;
@@ -283,6 +283,7 @@ a{
     height: 100%;
     object-fit: cover;
     top: 0;
+
 }
 
 #aside:hover > div{
@@ -295,7 +296,9 @@ a{
 }
 
 .video:hover{
-    opacity: 100%;   
+    transition: 0.1s linear 0.3s;
+    opacity: 100%; 
+
 }
 
 .articels{
