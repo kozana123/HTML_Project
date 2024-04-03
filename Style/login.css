@@ -1,17 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Secular+One&display=swap');
 @import url(/Style/header.css);
 @import url(/Style/reset.css);
+@import url(/Style/var.css);
 
 .grid{
     display: grid;
-    
-}
-
-
-#grid{
-    font-family: "Secular One", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    background-color: rgb(234, 233, 217);
     
 }
 
@@ -41,10 +34,7 @@
     gap: 15px;
     padding: 15px;
     box-shadow: 0px 0px 60px 0px rgba(112, 112, 112, 0.75);
-    /* font-family: "Secular One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    border-radius: 0.5em; */
+
     
 }
 
@@ -70,6 +60,9 @@
 }
 
 .container {
+    font-family: var(--ff);
+    font-weight: var(--fw);
+    font-style: var(--fs);
     width: 100%;
     height: 100%;
     background-image: conic-gradient(rgb(211, 200, 181), rgb(154, 163, 152));
@@ -89,9 +82,6 @@
     margin: 10px auto;
     font-size: 20px;
     background-color:rgb(198, 205, 165);
-    font-family: "Rubik Doodle Shadow", system-ui;
-    font-weight: 900;
-    font-style: normal;
 
 }
 

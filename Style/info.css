@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Secular+One&display=swap');
 @import url(/Style/header.css);
 @import url(/Style/reset.css);
+@import url(/Style/var.css);
 
 
 
@@ -9,9 +10,9 @@
 
 .body{
 
-    font-family: "Secular One", sans-serif;
-    /* font-weight: 0; */
-    font-style: normal;
+    font-family: var(--ff);
+    font-weight: var(--fw);
+    font-style: var(--fs);
     background-size: cover; 
     /* background-color: rgb(223, 242, 220); */
     background-image: url(/Style/images/shop/רקע\ לחנות.jpeg);
