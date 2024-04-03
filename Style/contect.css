@@ -8,11 +8,6 @@
     
 }
 
-.grid {
-    display: grid;
-   
-}
-
 
 
 #grid{
@@ -22,8 +17,9 @@
     
 }
 
-body{
-    background-color: #f0f1e8;
+.body{
+    background-color: #eeefe1;
+    
 
 }
 
