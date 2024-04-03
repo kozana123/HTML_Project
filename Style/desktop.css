@@ -243,12 +243,13 @@ a{
     margin: auto;
     width: 80%;
     height: 15%;
-    transform:translateY(700%);
+    transform:translateY(200%);
     
     
 }
 
 .news >div{
+    position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden; 
@@ -262,7 +263,7 @@ a{
     direction: rtl;
 }
 
-#news1{
+/* #news1{
     animation: scroll-up1 12s linear infinite;
 }
 
@@ -274,17 +275,27 @@ a{
 #news3{
     animation: scroll-up3 12s linear 4s infinite;
 
-}
+} */
 
 .newsImg{
+    position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    top: 0;
 }
 
 #aside:hover > div{
     animation-play-state: paused;
 
+}
+
+.video:not(:hover){    
+    opacity: 0%;   
+}
+
+.video:hover{
+    opacity: 100%;   
 }
 
 .articels{
