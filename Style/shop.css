@@ -44,8 +44,43 @@ body{
     animation: slider linear infinite alternate;
     animation-duration: 10s;
     
-  }
+}
 
+#title{
+    width: 100%;
+    height: 150px;
+   }
+   
+   .title{
+       color: rgb(61, 34, 0);
+       position: absolute;
+       font-size:45px;
+       font-weight:700;  
+       letter-spacing:1px; 
+       text-align:center;
+       width: 150px;
+       margin:4% 80%;
+   }
+   
+   .title:before{
+       background-color: rgb(121, 113, 0);
+       content: "";
+       display: block;
+       height: 4px;
+       width: 40%;
+      
+       
+   }
+   
+   .title:after{
+       background-color: rgb(121, 113, 0);
+       content: '';
+       display: block;
+       position:absolute; right:0; bottom:0;
+       height: 4px;
+       width: 40%;
+       margin-bottom: -7px
+   }
 
 #ul{
     
