@@ -1,19 +1,30 @@
-@import url(/Style/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Secular+One&display=swap');
 @import url(/Style/header.css);
+@import url(/Style/reset.css);
+
 
 .grid{
-  display: grid;
-    
+    display: grid;
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 900;
+    font-style: normal
 }
+
+
+
 body{
+    font-family: "Secular One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-family: "Secular One", sans-serif;
-    font-weight: 900;
-    font-style: normal;
+  
 }
-    
+
+
+  
 
 .cta {
     z-index: 0;
@@ -26,10 +37,11 @@ body{
     font-family: "Truculenta", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
-    font-style:inherit;
+    font-style: normal;
     font-variation-settings:
     "wdth" 100;
     
+
    
   }
   
@@ -39,7 +51,7 @@ body{
     font-size: 40px;
     padding-right: 15px;
     text-transform: uppercase;
-    border-radius: 100px;
+    
      
   }
   
@@ -59,6 +71,7 @@ body{
   .hover-underline-animation {
     position: relative;
     color: black;
+    
    
   }
       
@@ -80,12 +93,14 @@ body{
     transform-origin: bottom left;
   }
   
+  
 
 .container {
     width: 100%;
     height: 100%;
     --size: 150px; /* control the size */
-    --color:        #8baea6;
+    --color: #6d95c2;
+  
     background: radial-gradient(
         circle at 15% 30%,
         transparent 40%,
@@ -109,23 +124,23 @@ body{
     background-size: var(--size) var(--size);
   }
 
-  
 #ul{
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    
+
     padding: 8%;
-    gap: 0 8%
+    gap: 2% 8%
 
 
 }
 
 
+
+
 #ul > li > img{
-        
     width: 100%;
-    border-radius: 70px;
     height: 70%;
+    border-radius: 70px;
     object-fit: cover;
 }
 
@@ -142,7 +157,7 @@ nav > ul> li> label{
 
 
 }
-
+ 
 
 .button {
     --width: 150px;
@@ -165,6 +180,7 @@ nav > ul> li> label{
     font-family: "Rubik Doodle Shadow", system-ui;
     font-weight: 900;
     font-style: normal;
+    
   }
   
   .button::before {
@@ -174,11 +190,12 @@ nav > ul> li> label{
     height: var(--tooltip-height);
     background-color: #3a4f6e;
     font-size: 1.5rem;
-    color: #78a2cf;
+    color: #e2e7ec;
     border-radius: .90em;
     line-height: var(--tooltip-height);
     bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) + 10px);
     left: calc(50% - var(--tooltip-width) / 2);
+   
   }
   
   .button::after {
@@ -187,7 +204,7 @@ nav > ul> li> label{
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-top-color: #555;
+    border-top-color: #f6f1f1;
     left: calc(50% - 10px);
     bottom: calc(100% + var(--gap-between-tooltip-to-button) - 10px);
   }
@@ -196,6 +213,7 @@ nav > ul> li> label{
     font-family: "Rubik Doodle Shadow", system-ui;
     font-weight: 900;
     font-style: normal
+    b
   }
   
   .button::after,.button::before {
@@ -208,6 +226,7 @@ nav > ul> li> label{
     display: flex;
     align-items: center;
     justify-content: center;
+   
   }
   
   .button-wrapper,.text,.icon {
@@ -264,5 +283,3 @@ nav > ul> li> label{
   .button:hover:before {
     bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
   }
-  
-

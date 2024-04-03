@@ -44,7 +44,7 @@ a{
     font-weight: bold;
     font-size: 40px;
     margin: auto;
-    background-color: rgba(235, 140, 39, 0.45);
+    background-color: rgba(253, 222, 118, 0.815);
     border-radius: 100px;
     border: 2px solid rgb(13, 13, 13);
     padding: 015px 32px;
@@ -52,7 +52,13 @@ a{
     text-decoration: none;
     display: inline-block;
     color: black;
+
   
+}
+
+#welcome > div > a:hover{
+    transition: linear 0.25s;
+    filter:brightness(70%)
 }
 
 #title1{
