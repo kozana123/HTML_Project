@@ -1,6 +1,6 @@
 @import url(/Style/reset.css);
 
-
+@media (width >= 700px){
 #header{
     width: 100%;
     background-color: rgba(245, 245, 220, 0.9);
@@ -9,6 +9,10 @@
     z-index: 1;
     border-bottom: solid rgba(158, 147, 97, 0.9);
 
+}
+
+#header #mobile_btn{
+    display: none;
 }
 
 #header > nav > ul{
@@ -61,4 +65,5 @@
 .headerHover:hover{
     background-color: rgb(245, 245, 178);
     
+}
 }

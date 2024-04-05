@@ -1,0 +1,38 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Secular+One&display=swap');
+@import url(/Style/header.css); */
+
+body{
+    grid-template-areas:
+
+    'header'
+    'welcome'
+    'main'
+    'aside'
+    'footer'
+     ;
+}
+
+#header{
+    grid-area: header;
+}
+
+#mobile_btn{
+    position: absolute;
+    
+}
+
+#welcome{
+    grid-area: welcome;
+}
+
+#main{
+    grid-area: main;
+}
+
+#aside{
+    grid-area: aside;
+}
+
+#footer{
+    grid-area: footer;
+}
