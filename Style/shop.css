@@ -4,7 +4,7 @@
 @import url(/Style/var.css);
 
 
-
+@media (width >= 700px){
 
 body{
     font-family: var(--ff);
@@ -138,3 +138,4 @@ nav > ul> li> label{
         transform: translate(-868px, 0);
     } 
   }
+}

@@ -1,10 +1,10 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Secular+One&display=swap');
-@import url(/Style/header.css); */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Secular+One&display=swap');
+@import url(/Style/header.css);
+@import url(./reset.css);
 
 body{
     grid-template-areas:
 
-    'header'
     'welcome'
     'main'
     'aside'
@@ -14,12 +14,12 @@ body{
 
 #header{
     grid-area: header;
+    position: relative;
 }
 
-#mobile_btn{
-    position: absolute;
-    
-}
+
+
+
 
 #welcome{
     grid-area: welcome;

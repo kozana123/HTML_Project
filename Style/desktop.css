@@ -271,16 +271,16 @@ a{
 }
 
 #news1{
-    animation: scroll-up1 12s linear infinite;
+    animation: scroll-up1 14s linear infinite;
 }
 
 
 #news2{
-    animation: scroll-up2 12s linear 2s infinite;
+    animation: scroll-up2 14s linear 3s infinite;
 }
 
 #news3{
-    animation: scroll-up3 12s linear 4s infinite;
+    animation: scroll-up3 14s linear 6s infinite;
 
 }
 
