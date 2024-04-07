@@ -165,7 +165,7 @@ nav > ul> li> label{
     --tooltip-height: 35px;
     --tooltip-width: 90px;
     --gap-between-tooltip-to-button: 18px;
-    --button-color: #b3d4dfc7;
+    --button-color: #b3d4df;
     --tooltip-color: #fff;
     width: var(--width);
     height: var(--height);

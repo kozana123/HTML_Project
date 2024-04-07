@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Secular+One&display=swap');
 @import url(/Style/header.css);
 @import url(./reset.css);
+@import url(/Style/var.css);
 
-body{
+@media (width < 700px){
+.grid{
+    display: grid;   
+}
+
+a{
+    text-decoration: none;
+}
+
+.body{
+
     grid-template-areas:
 
     'welcome'
@@ -10,24 +21,170 @@ body{
     'aside'
     'footer'
      ;
+
+     font-family: var(--ff);
+     font-weight: var(--fw);
+     font-style: var(--fs);
+     background-color:var(--clr-body);
 }
-
-#header{
-    grid-area: header;
-    position: relative;
-}
-
-
-
-
 
 #welcome{
+
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-top: 8%;
     grid-area: welcome;
+    background-image: url(/Style/images/Welcome.jpeg) ;
+    background-size: cover;  
+}
+
+#welcome > div > a{
+
+    font-weight: bold;
+    font-size: 200%;
+    margin: auto;
+    background-color: rgba(243, 210, 103, 0.815);
+    border-radius: 100px;
+    border: 2px solid rgb(13, 13, 13);
+    padding: 015px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+
+  
+}
+
+#title1{
+    position: absolute;
+    font-size: 500%;
+    top: 5%;
+    left: 51%;
+}
+
+#title2{
+    position: absolute;
+    font-size: 500%;
+    top: 22%;
+    left: 29%;
+    
+}
+
+#welcome > h2{
+    position: absolute;
+    font-size: 350%;
+    top: 50%;
+    left: 45%;
+}
+
+#welcome > div{
+    
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    grid-template-columns: 1fr 1fr ;
+    bottom: 10%;
 }
 
 #main{
     grid-area: main;
+    height: 70%;
 }
+
+#main > div{
+
+    width: 100%;
+    height: 100%;
+    gap: 3%;
+    padding: 10% 20%;
+    
+}
+
+.imgContain{
+    
+    border-radius: 10px;
+    overflow: hidden; 
+    text-align: center;  
+    
+}
+
+.imgContain > div{
+
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(229, 216, 103, 0.705);     
+}
+
+.hoverEffect{
+    position: relative;
+    width: 100%;
+    height: 100%;   
+    color: rgb(77, 72, 34);
+    
+}
+
+.img-effect{
+
+    scale: 1;
+    opacity: 1;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    animation: mainPic linear ;
+    
+    
+}
+
+
+.titleMove{
+    direction: rtl;
+    position: absolute;
+    font-size: 40px;
+    right: 10%;
+    bottom: 25%;
+    transform: translateY(1000%);
+    opacity: 0%;
+    transition: ease 1.1s;
+}
+
+
+
+
+.textMove{
+    direction: rtl;
+    padding: 8%;
+    font-size: 18px;
+    position: absolute; 
+    top: 75%;
+    transform: translateY(1000%);
+    opacity: 0%;
+    transition: ease 1.1s;
+    
+    
+}
+
+@keyframes mainPic {
+
+    to{
+        transform: scale(1.2);
+        opacity: 30%;
+    } 
+}
+
+
+
+.hoverEffect:hover > .titleMove{
+    transform: translateY(0%);
+    opacity: 100%;
+}
+
+.hoverEffect:hover > .textMove{
+    
+    transform: translateY(0%);
+    opacity: 100%;
+}
+
 
 #aside{
     grid-area: aside;
@@ -35,4 +192,5 @@ body{
 
 #footer{
     grid-area: footer;
+}
 }
