@@ -14,8 +14,8 @@
     font-weight: var(--fw);
     font-style: var(--fs);
     background-size: cover; 
-    /* background-color: rgb(223, 242, 220); */
-    background-image: url(/Style/images/shop/רקע\ לחנות.jpeg);
+    background-color: rgb(231, 214, 188);
+    
 }
 
 .grid{

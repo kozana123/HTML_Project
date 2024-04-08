@@ -3,6 +3,149 @@
 @import url(/Style/reset.css);
 @import url(/Style/var.css);
 
+@media (width < 700px){
+    
+    body{
+        font-family: var(--ff);
+        font-weight: var(--fw);
+        font-style: var(--fs);
+        background-color: rgb(231, 214, 188);
+        background-size: cover; 
+    }
+    .grid{
+        display: grid;
+    }
+
+    .slider-container {
+        z-index: 0;
+        border-top: 2px solid rgba(158, 147, 97, 0.9);;
+        border-bottom: 2px solid rgba(158, 147, 97, 0.9);;
+        margin-top: 16%;
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .slider-image {
+        width: auto;
+        height: 200px;
+        float: left;
+
+    }
+    
+    
+    .image-container {
+        width: 3000px;
+        height: 200px;
+        clear: both;
+        animation: slider linear infinite alternate;
+        animation-duration: 12s;
+       
+        
+    }
+
+    #title{ 
+        height: 150px;
+
+    }
+       
+    .title{
+        color: rgb(61, 34, 0);
+        position: absolute;
+        font-size:60px;
+        font-weight:700;  
+        letter-spacing:1px; 
+        text-align:center;
+        width: 190px;
+        margin:4% 80%;
+    }
+    
+    .title:before{
+        background-color: rgb(121, 113, 0);
+        content: "";
+        display: block;
+        height: 4px;
+        width: 40%;
+        
+        
+    }
+    
+    .title:after{
+        background-color: rgb(121, 113, 0);
+        content: "";
+        display: block;
+        position:absolute; right:0; bottom:0;
+        height: 4px;
+        width: 40%;
+        margin-bottom: -7px
+    }
+
+    nav{
+        margin: auto;
+    }
+
+    #ul{
+
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    padding: 5% 15%;
+    gap: 0 10%
+    
+    
+    }
+    
+    
+    #ul > li > a > img{
+        
+        width: 100%;
+        border-radius: 45px;
+        height: 80%;
+        object-fit: cover;
+        border: 3px solid black;    
+    
+    
+    }
+    
+    nav > ul> li> label{
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        background-color: rgba(163, 190, 108, 0.919);
+        border: 1px solid black;
+        margin: auto;
+        width: fit-content;
+        border-radius: 100px;
+        padding-inline: 30px
+        
+    
+    }
+    
+    #ul > li > a:hover {
+        filter:contrast(70%)
+    }
+
+    @keyframes slider {
+        0% {
+          transform: translate(0, 0);
+        }
+    
+        5% {
+            transform: translate(0, 0);
+        }
+    
+        95% {
+            transform: translate(-1880px, 0);
+        } 
+      
+        100% {
+            transform: translate(-1880px, 0);
+        } 
+      }
+    
+}
+
 
 @media (width >= 700px){
 
@@ -55,7 +198,7 @@ body{
    .title{
        color: rgb(61, 34, 0);
        position: absolute;
-       font-size:90px;
+       font-size: 60px;
        font-weight:700;  
        letter-spacing:1px; 
        text-align:center;
