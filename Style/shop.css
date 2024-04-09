@@ -10,8 +10,9 @@
         font-weight: var(--fw);
         font-style: var(--fs);
         background-color: rgb(231, 214, 188);
-        background-size: cover; 
+        
     }
+
     .grid{
         display: grid;
     }
@@ -21,7 +22,7 @@
         border-top: 2px solid rgba(158, 147, 97, 0.9);;
         border-bottom: 2px solid rgba(158, 147, 97, 0.9);;
         margin-top: 16%;
-        width: 100%;
+        /* width: max-content; */
         height: 200px;
         text-align: center;
         overflow: hidden;
@@ -79,10 +80,6 @@
         height: 4px;
         width: 40%;
         margin-bottom: -7px
-    }
-
-    nav{
-        margin: auto;
     }
 
     #ul{
