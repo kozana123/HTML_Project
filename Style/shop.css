@@ -40,7 +40,7 @@
         width: 1247px;
         height: 6rem;
         animation: slider linear infinite alternate;
-        animation-duration: 2s;
+        animation-duration: 12s;
        
         
     }
@@ -73,7 +73,8 @@
         
         
     }
-    
+
+
     .title:after{
         background-color: rgb(121, 113, 0);
         content: "";
@@ -84,18 +85,14 @@
         margin-bottom: -7px
     }
 
-    .nav{
-       
-
-    }
 
     #ul{
 
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         padding: 5% 10%;
-        gap: 5% 8%;
-        font-size: 13px;
+        gap: 2% 8%;
+        font-size: 20px;
     
     }
     
