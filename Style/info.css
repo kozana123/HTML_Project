@@ -91,7 +91,7 @@
     .h2{
        color: rgb(156, 107, 0);
        margin: 3% 5%;
-       font-size: 25px;
+       font-size: 20px;
        font-weight:700;
         
     }
@@ -99,13 +99,13 @@
     .h3{
         color: rgb(156, 107, 0);
        margin: 3% 5%;
-       font-size: 20px;
+       font-size: 17px;
     }
     
     .p{
         margin: 3% 5%; 
         color: rgb(75, 51, 0);
-        font-size: 17px;
+        font-size: 15px;
         cursor: default;
     }
     
