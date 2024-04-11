@@ -34,7 +34,7 @@
 
     #headerLogo{
         width: 60px;
-        margin: 5px 50px;
+        margin: 5px 25px;
     }
 
 
@@ -50,11 +50,11 @@
         
     }
 
-    .headerLogo{
+    /* .headerLogo{
         position: absolute;
         top: 0;
         left: 20px;
-    }
+    } */
 
 
     #header > nav > ul{
