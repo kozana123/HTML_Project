@@ -22,7 +22,7 @@
         border-top: 2px solid rgba(158, 147, 97, 0.9);
         border-bottom: 2px solid rgba(158, 147, 97, 0.9);
         margin-top: 5rem;
-        height: 6rem;
+        height: 8rem;
         text-align: center;
         overflow: hidden;
 
@@ -30,14 +30,14 @@
 
     .slider-image {
         width: auto;
-        height: 6rem;
+        height: 8rem;
         float: left;
 
     }
     
     
     .image-container {
-        width: 1247px;
+        width: 1800px;
         height: 6rem;
         animation: slider linear infinite alternate;
         animation-duration: 12s;
@@ -47,7 +47,7 @@
 
     #title{ 
         
-        height: 6rem;
+        height: 8rem;
         
     }
        
@@ -59,7 +59,7 @@
         letter-spacing:1px; 
         text-align:center;
         width: 100px;
-        top: 23%;
+        top: 15rem;
         right: 10%
         
     }
@@ -131,11 +131,11 @@
         }
     
         95% {
-            transform: translate(-880px, 0);
+            transform: translate(-1250px, 0);
         } 
       
         100% {
-            transform: translate(-880px, 0);
+            transform: translate(-1250px, 0);
         } 
       }
     
