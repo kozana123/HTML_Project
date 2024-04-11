@@ -13,7 +13,7 @@
     
     #title{
         
-        padding: 8rem 0 2rem 0;
+        padding: 8rem 1rem 2rem 1rem;
         font-size: 30px;
         text-align: center;
         font-family: "Secular One", sans-serif;
@@ -33,10 +33,9 @@
         height: 250px;
         border: 2px solid rgba(229, 207, 207, 0.822);
         grid-template-rows: 1fr 1fr;
-        font-size: 25px;
+        font-size: 20px;
         text-align: center; 
-        gap: 15%;
-        padding: 5% 0 20% 0%;
+        padding: 10% 0 10% 0%;
         box-shadow: 0px 0px 60px 0px rgba(112, 112, 112, 0.75);
     
         
@@ -58,7 +57,7 @@
     .form-input > input{
         font-size: 20px;
         margin: auto ;
-        
+        width: 90%;
         background-color:rgb(241, 230, 181);
        
     }

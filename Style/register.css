@@ -15,7 +15,7 @@
     
     #title{
         padding: 8rem 0 2rem 0;
-        font-size: 40px;
+        font-size: 35px;
         text-align: center;
         text-decoration: overline;
 
@@ -45,13 +45,15 @@
         border: 1px solid #e8e8e8;
         box-shadow: 1px 1px 10px #c5c5c5, -1px -1px 8px #ffffff;
         grid-template-rows: repeat(7, 1fr);
-        font-size: 25px;
+        font-size: 20px;
         text-align: center; 
         padding: 15px;
+        
         
     }
     
     .form-input label{
+        
         display: block;
         grid-template-rows: 1fr 1fr;
         margin: 0 auto;
@@ -59,9 +61,10 @@
     }
     
     .form-input > input{
+
         font-size: 20px;
         height: 40%;
-    
+        width: 90%;
         background-color:rgb(241, 230, 181);
         
     }
