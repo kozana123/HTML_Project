@@ -50,12 +50,6 @@
         
     }
 
-    /* .headerLogo{
-        position: absolute;
-        top: 0;
-        left: 20px;
-    } */
-
 
     #header > nav > ul{
         grid-row: auto;
