@@ -170,7 +170,7 @@ a{
     direction: rtl;
     position: absolute;
     font-size: 25px;
-    padding: 5%;
+    right: 5%;
     bottom: 50%;
 
 }
@@ -178,9 +178,9 @@ a{
 .textMoveMidle{
     direction: rtl;
     padding: 8%;
-    font-size: 10px;
+    font-size: 15px;
     position: absolute; 
-    top: 45%;
+    top: 50%;
    
 }
 
