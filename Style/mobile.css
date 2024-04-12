@@ -34,7 +34,7 @@ a{
 
     position: relative;
     height: 300px;
-    margin-top: 4em;
+    margin-top: 3em;
     grid-area: welcome;
     background-image: url(/Style/images/Welcome.jpeg) ;
     background-size: cover;
@@ -147,7 +147,7 @@ a{
 .textMove{
     direction: rtl;
     padding: 8%;
-    font-size: 10px;
+    font-size: 15px;
     position: absolute; 
     top: 60%;
 }
