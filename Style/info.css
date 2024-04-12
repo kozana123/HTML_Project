@@ -69,9 +69,7 @@
     
     .tamplate{
         position: relative;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 3% 10%;
+        gap: 2%;
     
     }
     .article{
