@@ -101,14 +101,14 @@ a{
 
 .imgContain{
 
-    scale: 0.1;
+    scale: 0;
     opacity: 0%;
     border-radius: 10px;
     overflow: hidden; 
     text-align: center; 
     animation: fadeIn linear forwards;
     animation-timeline: view();
-    animation-range-start: 50px ;
+    animation-range-start: 0px ;
     animation-range-end: 400px ;
 }
 
