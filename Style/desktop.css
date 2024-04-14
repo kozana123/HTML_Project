@@ -15,6 +15,7 @@
             'aside main main main main main'
             'aside main main main main main' 
             'aside main main main main main'
+            'aside main main main main main'
             'footer footer footer footer footer footer'
             
         
@@ -313,7 +314,38 @@
         background-color: antiquewhite;
     }
 
+
+  .us{
+    width: 600px;
+    color: rgb(70, 81, 60);
+    font-size:80px;
+    font-weight:900;
+    text-align: right;
+    float: right;
+    padding: 0% 9%;
+    margin: 2%;
+
+}
+  
+
+  
+
+#about{
+text-align: right;
+
+}
+
+.about{
+    float: right;
+    margin: 10px;
+    color: rgb(70, 81, 60);
+    font-size:19px;
+    font-weight:900;
+    padding: 0% 8%;
     
+}
+    
+
 
 
     #footer {
