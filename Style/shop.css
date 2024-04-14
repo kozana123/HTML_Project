@@ -21,7 +21,7 @@
         z-index: 0;
         border-top: 2px solid rgba(158, 147, 97, 0.9);
         border-bottom: 2px solid rgba(158, 147, 97, 0.9);
-        margin-top: 5rem;
+        margin-top: 4rem;
         height: 8rem;
         text-align: center;
         overflow: hidden;
@@ -103,7 +103,7 @@
         border-radius: 30%;
         height: 80%;
         object-fit: cover;
-        border: 3px solid black;    
+        border: 1px solid black;    
     
     
     }
@@ -239,7 +239,7 @@ body{
     border-radius: 70px;
     height: 80%;
     object-fit: cover;
-    border: 3px solid black;    
+    border: 1px solid black;    
 
 
 }
