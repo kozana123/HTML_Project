@@ -314,6 +314,7 @@
 
 
 .us{
+
     width: 700px;
     color: rgb(70, 81, 60);
     font-size:80px;
@@ -329,12 +330,13 @@
   
 
 #about{
-    
+    direction: rtl;
 text-align: right;
 
 }
 
 .about{
+    line-height: 35px;
     float: right;
     margin: 10px;
     color: rgb(70, 81, 60);

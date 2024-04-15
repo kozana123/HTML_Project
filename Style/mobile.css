@@ -94,16 +94,16 @@ a{
     float: right;
     padding: 0% 9%;
     margin: 2%;
-
+    direction: rtl;
 }
 
 #about{ 
-    /* height: 200px; */
     text-align: right;
-
+    
 }
 
 .about{
+    line-height: 20px;
     float: right;
     margin: 10px;
     color: rgb(70, 81, 60);
@@ -112,11 +112,14 @@ a{
     padding: 0% 5%;
     
 }
+.about > p{
+    direction: rtl;
+}
 
 
 #main{
     grid-area: main;
-    height: 73%;
+    height: 68%;
 }
 
 #main > div{
