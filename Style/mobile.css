@@ -85,9 +85,38 @@ a{
     bottom: 10%;
 }
 
+.us{
+    width: 300px;
+    color: rgb(70, 81, 60);
+    font-size:50px;
+    font-weight:900;
+    text-align: right;
+    float: right;
+    padding: 0% 9%;
+    margin: 2%;
+
+}
+
+#about{ 
+    /* height: 200px; */
+    text-align: right;
+
+}
+
+.about{
+    float: right;
+    margin: 10px;
+    color: rgb(70, 81, 60);
+    font-size:14px;
+    font-weight: 500;
+    padding: 0% 5%;
+    
+}
+
+
 #main{
     grid-area: main;
-    height: 95%;
+    height: 73%;
 }
 
 #main > div{
@@ -188,7 +217,7 @@ a{
     position: absolute;
     font-size: 25px;
     right: 5%;
-    bottom: 50%;
+    bottom: 55%;
 
 }
 
@@ -197,7 +226,7 @@ a{
     padding: 8%;
     font-size: 15px;
     position: absolute; 
-    top: 50%;
+    top: 45%;
    
 }
 

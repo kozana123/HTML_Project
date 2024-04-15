@@ -143,7 +143,7 @@
     .titleMove{
         direction: rtl;
         position: absolute;
-        font-size: 40px;
+        font-size: 50px;
         right: 10%;
         bottom: 25%;
         transform: translateY(1000%);
@@ -157,7 +157,7 @@
     .textMove{
         direction: rtl;
         padding: 8%;
-        font-size: 18px;
+        font-size: 25px;
         position: absolute; 
         top: 75%;
         transform: translateY(1000%);
@@ -199,7 +199,7 @@
     .titleMoveMidle{
         direction: rtl;
         position: absolute;
-        font-size: 40px;
+        font-size: 60px;
         right: 10%;
         bottom: 60%;
         transform: translateY(1000%);
@@ -210,7 +210,7 @@
     .textMoveMidle{
         direction: rtl;
         padding: 8%;
-        font-size: 20px;
+        font-size: 30px;
         position: absolute; 
         top: 30%;
         transform: translateY(600%);
@@ -237,7 +237,6 @@
         height: 70%;	
         background: rgb(255, 254, 248);
         color: rgb(0, 0, 0);
-        /* border-top: 2px solid rgba(158, 147, 97, 0.9); */
         border-right: 3px solid rgba(158, 147, 97, 0.9);
         border-bottom: 2px solid rgba(158, 147, 97, 0.9);
         overflow: hidden;
@@ -314,8 +313,8 @@
     }
 
 
-  .us{
-    width: 600px;
+.us{
+    width: 700px;
     color: rgb(70, 81, 60);
     font-size:80px;
     font-weight:900;
@@ -339,8 +338,8 @@ text-align: right;
     float: right;
     margin: 10px;
     color: rgb(70, 81, 60);
-    font-size:19px;
-    font-weight:900;
+    font-size:30px;
+    font-weight: 500;
     padding: 0% 8%;
     
 }

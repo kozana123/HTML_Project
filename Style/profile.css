@@ -58,7 +58,7 @@
     left: 38%;
     right: 2rem;
     width: 60%;
-    height: 330px;
+    height: 440px;
     direction: rtl;
 
     
@@ -90,12 +90,56 @@
     height: 100%;
     padding: 10px 0;
     /* gap: 5px; */
-    background-color: rgb(248, 248, 247);
+    background-color: rgb(245, 239, 186);
 }
 
 .info div:nth-of-type(even){
     background-color: rgb(193, 198, 195);
 }
+
+
+.details{
+    position: relative;
+    grid-template-columns: 19% 90%;
+    font-size: 140%;
+    /* border-bottom: 2px solid black;
+    margin-top: 2%; */
+    padding: 2%;
+}
+
+
+
+button {
+    padding: 18px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    margin-top: 2%;
+    margin-right: 2%;
+    font-weight:900; 
+  }
+  
+  button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(216, 73%, 64%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(55, 89, 184) 0px 7px 29px 0px;
+  }
+  
+  button:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
 
 .purches{
     position: relative;
@@ -108,14 +152,7 @@
     background-color: rgb(248, 248, 247); 
 }
 
-.details{
-    position: relative;
-    grid-template-columns: 19% 90%;
-    font-size: 140%;
-    /* border-bottom: 2px solid black;
-    margin-top: 2%; */
-    padding: 2%;
-}
+
 
 
 .payments div:nth-of-type(even){
@@ -155,20 +192,25 @@
     display: block;
     height: 4px;
     width: 100%;
-    margin-bottom: 0px;
+    margin-bottom: -3px;
 }
 
 .like{
+    float: right;
     position: relative;
-    left: 38%;
-    right: 2rem;
-    width: 60%;
+    /* left: 38%; */
+    /* right: 2rem; */
+    width: 90%;
     height: 330px;
     direction: rtl;
 }
 
+.like > div{
+    grid-template-columns: 12% 1fr;
+    margin-right: 50px;
+}
 
-.like > h1{
+.like > div > h1{
     color: rgb(61, 34, 0);
     font-size: 25px;
     font-weight: 700;  
@@ -176,79 +218,57 @@
     width: fit-content;
 }
 
-.like > h1:after{
+.like > div > h1:after{
     background-color: rgb(121, 113, 0);
     content: '';
     display: block;
     height: 4px;
-    width: 100%;
-    margin-bottom: 0px;
+    width: 130%;
+    margin-bottom: -1;
 }
 
-button {
-    padding: 18px 40px;
-    border-radius: 50px;
-    cursor: pointer;
-    border: 0;
-    background-color: white;
-    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    font-size: 15px;
-    transition: all 0.5s ease;
-    margin-top: 2%;
-    margin-right: 2%;
-    font-weight:900; 
-  }
-  
-  button:hover {
-    letter-spacing: 3px;
-    background-color: hsl(216, 73%, 64%);
-    color: hsl(0, 0%, 100%);
-    box-shadow: rgb(55, 89, 184) 0px 7px 29px 0px;
-  }
-  
-  button:active {
-    letter-spacing: 3px;
-    background-color: hsl(261deg 80% 48%);
-    color: hsl(0, 0%, 100%);
-    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
-    transform: translateY(10px);
-    transition: 100ms;
-  }
 
-  .heart{
+
+.heart{
+    
      text-align:center;
   
 }
 .heart > img{
-    width: 40px;
+    float: right;
+    width: 30px;
 }
-
+.photos{
+    padding: 5%;
+}
 
 .photo {
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
-    height: 70%;
-    gap: 3%;
-    padding: 3% 8%;
+    height: 100%;
+    gap: 10%;
+    /* padding: 3% 8%; */
 }
   
 .imgContain{
         
-    width: 140%;
+    width: 100%;
     height: 100%;
     border-radius: 30px;
     overflow: hidden; 
     transition: all 1.1s; 
-    text-align: center;   
+    text-align: center; 
+    overflow: hidden; 
+
 }
 
-/* .imgContain > div{
-    width: 100%;
-    height: 100%; 
-    background-color: rgba(229, 216, 103, 0.705);     
+.imgContain > div{
+    height: 100%;
 }
- */
+
+.img-effect{
+    height: 100%;
+    object-fit: cover;
+}
 
   
