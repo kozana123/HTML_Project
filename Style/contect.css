@@ -112,18 +112,15 @@
 }
 
 .massage{ 
-    /* margin-top: 29px; */
+
     width: 90%;
-    /* margin-left:17%;  */
     direction: rtl;
     font-size: 150%;
     font-weight: 900;
     border-radius: 0.5em;
-    border: 3px solid rgb(7, 114, 50);
-    
+    border: 3px solid rgb(7, 114, 50); 
  
 }
-
 
 .box input{
     height: 40px;
@@ -132,8 +129,8 @@
 
 
 button {
-
-
+    position: absolute;
+    top: 11rem;
     text-align: center;
     font-size: 12px;
     background: rgb(221, 223, 227);
