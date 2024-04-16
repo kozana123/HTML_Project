@@ -96,7 +96,8 @@
 
     #main{
         grid-area: main;
-        height: 70%;
+        height: 60%;
+        
     }
 
     #main > div{
@@ -104,7 +105,7 @@
         width: 100%;
         height: 70%;
         gap: 3%;
-        padding: 3% 8%;
+        padding: 5% 15%;
         
     }
 
@@ -143,9 +144,9 @@
     .titleMove{
         direction: rtl;
         position: absolute;
-        font-size: 50px;
+        font-size: 35px;
         right: 10%;
-        bottom: 25%;
+        bottom: 30%;
         transform: translateY(1000%);
         opacity: 0%;
         transition: ease 1.1s;
@@ -157,9 +158,9 @@
     .textMove{
         direction: rtl;
         padding: 8%;
-        font-size: 25px;
+        font-size: 20px;
         position: absolute; 
-        top: 75%;
+        top: 70%;
         transform: translateY(1000%);
         opacity: 0%;
         transition: ease 1.1s;
@@ -186,7 +187,7 @@
     .midle {
         
         height: 30%;
-        padding: 0% 8%;
+        padding: 0% 10%;
         
     }
 
@@ -199,7 +200,7 @@
     .titleMoveMidle{
         direction: rtl;
         position: absolute;
-        font-size: 60px;
+        font-size: 40px;
         right: 10%;
         bottom: 60%;
         transform: translateY(1000%);
@@ -210,7 +211,7 @@
     .textMoveMidle{
         direction: rtl;
         padding: 8%;
-        font-size: 30px;
+        font-size: 25px;
         position: absolute; 
         top: 30%;
         transform: translateY(600%);
@@ -234,7 +235,7 @@
     #aside{
         grid-area: aside;
         width: 250px;
-        height: 70%;	
+        height: 60%;	
         background: rgb(255, 254, 248);
         color: rgb(0, 0, 0);
         border-right: 3px solid rgba(158, 147, 97, 0.9);
