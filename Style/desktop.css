@@ -46,7 +46,7 @@
         font-weight: bold;
         font-size: 40px;
         margin: auto;
-        background-color: rgba(243, 210, 103, 0.815);
+        background-color: rgba(230, 211, 150, 0.815);
         border-radius: 100px;
         border: 2px solid rgb(13, 13, 13);
         padding: 015px 32px;
@@ -316,7 +316,7 @@
 .us{
 
     width: 700px;
-    color: rgb(70, 81, 60);
+    color: rgb(9, 9, 8);
     font-size:80px;
     font-weight:900;
     text-align: right;
@@ -339,11 +339,13 @@ text-align: right;
     line-height: 35px;
     float: right;
     margin: 10px;
-    color: rgb(70, 81, 60);
-    font-size:30px;
+    color: rgb(15, 16, 14);
+    font-size:25px;
     font-weight: 500;
     padding: 0% 8%;
-    
+    border:2px solid rgb(158, 147, 97, 0.9);
+    background-color: rgb(158, 147, 97, 0.9);
+    border-radius: 30px;
 }
     
 
@@ -351,7 +353,8 @@ text-align: right;
 
     #footer {
         grid-area: footer;
-        background-color: aliceblue;
+        background-color: rgb(158, 147, 97, 0.9);
+    
     
     }
 
@@ -362,6 +365,7 @@ text-align: right;
         gap: 20px;
         width: 50%;
         margin-inline: auto;
+        
 
 
     }
