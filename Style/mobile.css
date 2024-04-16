@@ -86,7 +86,7 @@ a{
 }
 
 .us{
-    width: 300px;
+    width: 400px;
     color: rgb(70, 81, 60);
     font-size:50px;
     font-weight:900;
@@ -119,7 +119,7 @@ a{
 
 #main{
     grid-area: main;
-    height: 68%;
+    height: 75%;
 }
 
 #main > div{
