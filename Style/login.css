@@ -2,7 +2,7 @@
 @import url(/Style/header.css);
 @import url(/Style/reset.css);
 @import url(/Style/var.css);
-
+@import url(/Style/chat.css);
 
 
 @media (width < 700px){
@@ -111,9 +111,7 @@
       }
       
     
-      input{
-        background-color:rgb(85, 78, 69)
-    }
+
 }
 
 
@@ -227,9 +225,7 @@ button {
   }
   
 
-  input{
-    background-color:rgb(85, 78, 69)
-}
+
 
 
 }

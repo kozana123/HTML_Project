@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Secular+One&display=swap');
 @import url(/Style/header.css);
+@import url(/Style/chat.css);
 
 @media (width >= 700px){
     .body{
@@ -64,6 +65,7 @@
     }
 
     #title1{
+        color: rgb(35, 31, 32);
         position: absolute;
         font-size: 110px;
         top: 5%;
@@ -71,6 +73,7 @@
     }
 
     #title2{
+        color: rgb(35, 31, 32);
         position: absolute;
         font-size: 110px;
         top: 25%;
@@ -78,11 +81,12 @@
         
     }
 
-    #welcome > h2{
+    #welcome > img{
+    
         position: absolute;
-        font-size: 80px;
-        top: 60%;
-        left: 45%;
+        width: 400px;
+        top: 45%;
+        left: 40%;
     }
 
     #welcome > div{
@@ -328,11 +332,9 @@
 }
   
 
-  
-
 #about{
     direction: rtl;
-text-align: right;
+    text-align: right;
 
 }
 
@@ -348,60 +350,6 @@ text-align: right;
     background-color: rgb(158, 147, 97, 0.9);
     border-radius: 30px;
 }
-    
-  .help{
-   position: relative;
-   position: fixed;
-   bottom: 0;
-   right: 5px;
-   
-  }
-
-   .help > #chat, #helpBotten input[type= "checkbox"]{
-    display: none;
-   }
-
-   #helpBotten:has(input[type= "checkbox"]:checked) + #chat{
-     display: initial;
-   }
-
-  #helpBotten > label > img {
-    width: 100px;
-  }
-
-   #chat{
-    position: absolute;
-    bottom: 60px;
-    right: 60px;
-    width: 200px;
-    height: 400px;
-    background-color:rgb(196, 167, 106);
-    border: 1px solid black;
-    direction: rtl;
-   text-align: center;
-   border-radius: 10px;
-
-   }
-
-   #talk{
-    padding:5% 2%;
-     height: 88%;
-     background-color: hsl(49, 100%, 92%);
-     margin: 5% 5% 0 5% ;
-     border-radius: 10px;
-   }
-
-   
-   #message{
-     position: relative;
-     width: 100%;
-     margin: 5% 0 0 0 ;
-    }
-
-    #message > input{
-       width: 90%;
-       border-radius: 10px;
-    }
 
 
     #footer {

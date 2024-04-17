@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Secular+One&display=swap');
 @import url(/Style/header.css);
 @import url(/Style/var.css);
-
+@import url(/Style/chat.css);
 
 
 
@@ -119,9 +119,7 @@
     }
       
     
-    input{
-        background-color:rgb(85, 78, 69)
-    }
+
 
 }
 
@@ -240,9 +238,5 @@ button {
     box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
   }
   
-
-input{
-    background-color:rgb(85, 78, 69)
-}
 
 }
