@@ -2,6 +2,8 @@
 @import url(/Style/reset.css);
 @import url(/Style/header.css);
 @import url(/Style/var.css);
+@import url(/Style/chat.css);
+
 
 .grid{
     display: grid;

@@ -2,6 +2,7 @@
 @import url(/Style/header.css);
 @import url(./reset.css);
 @import url(/Style/var.css);
+@import url(/Style/chat.css);
 
 @media (width < 700px){
 
@@ -58,22 +59,24 @@ a{
 }
 
 #title1{
-    
+    color: rgb(35, 31, 32);
     font-size: 60px;
     padding: 1rem 1rem 0 40%;
 }
 
 #title2{
-
+    color: rgb(35, 31, 32);
     font-size: 60px;
     padding: 0 30% 0 3rem;
     
 }
 
-#welcome > h2{
-
-    font-size: 40px;
-    padding: 1rem;
+#welcome > img{
+    
+    position: absolute;
+    width: 160px;
+    top: 41%;
+    left: 30%;
 }
 
 #welcome > div{
@@ -327,59 +330,7 @@ a{
     } 
 }
 
-.help{
-    position: relative;
-    position: fixed;
-    bottom: 0;
-    right: 5px;
-    
-   }
- 
-    .help > #chat, #helpBotten input[type= "checkbox"]{
-     display: none;
-    }
- 
-    #helpBotten:has(input[type= "checkbox"]:checked) + #chat{
-      display: initial;
-    }
- 
-   #helpBotten > label > img {
-     width: 80px;
-   }
- 
-    #chat{
-     position: absolute;
-     bottom: 60px;
-     right: 60px;
-     width: 200px;
-     height: 400px;
-     background-color:rgb(196, 167, 106);
-     border: 1px solid black;
-     direction: rtl;
-    text-align: center;
-    border-radius: 10px;
- 
-    }
- 
-    #talk{
-     padding:5% 2%;
-      height: 88%;
-      background-color: hsl(49, 100%, 92%);
-      margin: 5% 5% 0 5% ;
-      border-radius: 10px;
-    }
- 
-    
-    #message{
-      position: relative;
-      width: 100%;
-      margin: 5% 0 0 0 ;
-     }
- 
-     #message > input{
-        width: 90%;
-        border-radius: 10px;
-     }
+
 
 
 #footer {
