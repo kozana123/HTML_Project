@@ -16,11 +16,8 @@
 body{
   font-family: var(--ff);
   font-weight: var(--fw);
-  font-style: var(--fs);
+  font-style: var(--fs); 
 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
   
 }
 
