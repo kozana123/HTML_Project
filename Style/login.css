@@ -14,7 +14,7 @@
     #title{
         
         padding: 8rem 1rem 2rem 1rem;
-        font-size: 30px;
+        /* font-size: 30px; */
         text-align: center;
         font-family: "Secular One", sans-serif;
         font-weight: 900;
@@ -28,7 +28,6 @@
     
     .personal{
     
-       
         background-color: rgb(215, 207, 196);
         height: 250px;
         border: 2px solid rgba(229, 207, 207, 0.822);
@@ -62,6 +61,11 @@
        
     }
     
+    #form_holder
+    {
+         border: 2px solid rgba(21, 18, 18, 0.822);
+    }
+
     .container {
        
         width: 100%;
@@ -154,6 +158,7 @@
 
     
 }
+
 
 
 
